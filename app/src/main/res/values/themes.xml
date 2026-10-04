@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">CCTV Mandiri</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.CCTV" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#4ADE80</item>
+        <item name="colorPrimaryVariant">#22C55E</item>
+        <item name="colorSecondary">#2563EB</item>
+        <item name="android:statusBarColor">#111111</item>
+        <item name="android:navigationBarColor">#111111</item>
+        <item name="android:windowBackground">#111111</item>
+    </style>
 </resources>

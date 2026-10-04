@@ -5,31 +5,31 @@
     android:background="#111111"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="32dp">
+    android:padding="24dp">
 
     <TextView
+        android:id="@+id/tvIp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1d1d1d"
+        android:padding="16dp"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="48dp"
-        android:text="📹 CCTV Mandiri"
+        android:layout_marginTop="20dp"
+        android:text="Status: Inactive"
         android:textColor="#4ADE80"
-        android:textSize="28sp"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/btnServer"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:padding="16dp"
-        android:text="📷 Camera Mode"
         android:textSize="18sp" />
 
     <Button
-        android:id="@+id/btnViewer"
+        android:id="@+id/btnToggle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:padding="16dp"
-        android:text="👀 Viewer Mode"
-        android:textSize="18sp" />
+        android:text="@string/start_camera" />
 </LinearLayout>
